@@ -9,14 +9,14 @@ Bu sistem, modelin yanlış tahmin yapmasını engellemek için klinik uzman dir
 * **Dinamik Yaş Kontrolü:** 6 aydan küçük bebekler için tıbbi olarak yanıltıcı olan "Timpanik (Kulak) Ölçüm" seçeneği arayüzden otomatik olarak kaldırılır, kullanıcı hatası engellenir.
 * **İnteraktif Arayüz:** Streamlit kullanılarak son kullanıcının kolayca kullanabileceği web tabanlı bir uygulama geliştirilmiştir.
 
-## 🛠️ Kullanılan Teknolojiler
+## Kullanılan Teknolojiler
 * **Python** (Veri işleme ve modelleme)
 * **Scikit-Learn** (Random Forest Classifier)
 * **Pandas & NumPy** (Veri manipülasyonu ve sentetik veri üretimi)
 * **Streamlit** (Web arayüzü geliştirme)
 * **Joblib** (Model persistency - modelin kaydedilip çağrılması)
 
-## 🗺️ Gelecek Yol Haritası (Roadmap)
+## Gelecek Yol Haritası (Roadmap)
 Bu proje şu an bir MVP (Minimum Viable Product) aşamasındadır. Gelecek geliştirmeler şunları kapsar:
 1. Sınıf dengesizliklerini gidermek için veri setine **SMOTE-Tomek** boru hattının (pipeline) entegre edilmesi.
 2. "Nedeni bilinmeyen ateş (FUO)" senaryolarını kapsayacak şekilde global ve geniş çaplı açık kaynak medikal veri setlerine geçiş yapılması.
